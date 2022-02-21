@@ -33,6 +33,7 @@ public class ResourceAdapter extends RecyclerView.Adapter<ResourceAdapter.MyView
     public void onBindViewHolder(@NonNull ResourceAdapter.MyViewHolder holder, int position) {
         Resources resources = resourceList.get(position);
         holder.resource_image.setImageResource(resources.source);
+        holder.branch_Name.setText(resources.BranchName);
     }
 
     @Override
@@ -41,10 +42,12 @@ public class ResourceAdapter extends RecyclerView.Adapter<ResourceAdapter.MyView
     }
 
     public static class MyViewHolder extends RecyclerView.ViewHolder{
-        ImageButton resource_image;
+         ImageView resource_image;
+         TextView branch_Name;
         public MyViewHolder(@NonNull View itemView) {
             super(itemView);
             resource_image = itemView.findViewById(R.id.resourceButton);
+            branch_Name = itemView.findViewById(R.id.branchName);
         }
     }
 }
