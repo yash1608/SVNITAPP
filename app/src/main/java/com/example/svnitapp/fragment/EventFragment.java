@@ -10,8 +10,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.example.svnitapp.Event_Adapter;
-import com.example.svnitapp.Events;
+import com.example.svnitapp.Adpter.Event_Adapter;
+import com.example.svnitapp.Modal.Events;
 import com.example.svnitapp.R;
 
 import java.util.ArrayList;

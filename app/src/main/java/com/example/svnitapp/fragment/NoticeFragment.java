@@ -12,8 +12,8 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.example.svnitapp.Notice;
-import com.example.svnitapp.Notice_Adapter;
+import com.example.svnitapp.Modal.Notice;
+import com.example.svnitapp.Adpter.Notice_Adapter;
 import com.example.svnitapp.R;
 
 import java.util.ArrayList;
@@ -28,8 +28,8 @@ public class NoticeFragment extends Fragment {
     }
 
     RecyclerView recyclerView;
-    ArrayList<Notice> noticeArrayList;
-    Notice_Adapter notice_adapter;
+   private ArrayList<Notice> noticeArrayList;
+   private Notice_Adapter notice_adapter;
     String [] notices;
 
 

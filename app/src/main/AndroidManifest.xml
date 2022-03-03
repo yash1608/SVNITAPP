@@ -9,6 +9,31 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SVNITAPP">
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true" >
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PreviosPeparActivity"
+            android:exported="true" />
+        <activity
+            android:name=".StudyMaterialActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SubjectItem"
+            android:exported="true" />
+        <activity
+            android:name=".SubjectName"
+            android:exported="true" />
+        <activity
+            android:name=".StudyMaterial"
+            android:exported="true" />
 
         <meta-data
             android:name="preloaded_fonts"
@@ -17,14 +42,8 @@
         <activity
             android:name=".MainActivity"
             android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
-
-        <activity android:name=".SemesterActivity" />
     </application>
 
 </manifest>

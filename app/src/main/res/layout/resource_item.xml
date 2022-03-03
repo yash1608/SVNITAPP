@@ -4,20 +4,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:layout_margin="10dp">
+    android:layout_marginRight="16dp">
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:cardCornerRadius="20dp"
+        app:cardElevation="1dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
-            android:layout_width="160dp"
-            android:layout_height="160dp"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
             android:background="@drawable/border"
             android:orientation="vertical">
 
@@ -27,16 +28,16 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/settings" />
+                app:srcCompat="@drawable/comp3" />
 
             <TextView
                 android:id="@+id/branchName"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
-                android:paddingLeft="15dp"
+                android:gravity="center"
                 android:text="TextView"
-                android:textColor="#BABABA" />
+                android:textColor="@color/text_color"/>
         </LinearLayout>
 
     </androidx.cardview.widget.CardView>

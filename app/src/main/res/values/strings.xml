@@ -2,4 +2,7 @@
     <string name="app_name">SVNIT APP</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="View_all_Notices"> <u>View all Notices</u>.</string>
+    <string name="View_all_Event"> <u>View all Events</u>.</string>
+    <string name="register"> <u>Register</u>.</string>
 </resources>
